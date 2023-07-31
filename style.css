@@ -1,41 +1,25 @@
-img {
-  height: 250px;
-  align-self: center;
-  border-radius: 10px;
-}
-
 h1 {
   color: red;
   line-height: 20px;
 }
 
 h2 {
-  font-size: 17px;
+  font-size: 19px;
   font-family: 'Karla', sans-serif;;
 }
 
-h3 {
-  line-height: 15px;
-}
-
-body {
-  background-color: rgb(242, 242, 242);
-  font-family: 'Lato', sans-serif;
-}
 
 p {
-  font-family: 'Karla', sans-serif;;
+  font-family: 'Karla', sans-serif;
+  padding: 0px 0px 20px 0px;
 }
 
-a {
-  text-decoration: none;
-  color: black;
+.banner {
+  height: 500px;
+  background-image: url(images/duck.png);
+  background-size: cover;
+  background-position: top;
 }
-
-a:hover {
-  color: red;
-}
-
 
 .card-white {
   border-radius: 15px;
@@ -43,9 +27,4 @@ a:hover {
   padding: 20px;
   margin: 20px 120px 20px 120px;
   box-shadow: 0px 0px 10px grey;
-}
-
-.column > li {
-  display: inline-block;
-  padding-right: 30px;
 }
